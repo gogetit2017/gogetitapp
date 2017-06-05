@@ -1,0 +1,30 @@
+
+".container" : {
+  
+}
+".TextClass":{
+	borderColor:"gray",
+	width:'90%',
+	height:'40dp',
+	color:'#000',
+	
+}
+
+'.signUp':{
+	width:"230dp", height:"44dp", top:"50dp" ,borderRadius:"10dp", backgroundColor:"#3BB9FF", color:"#fff",
+	font:{
+		fontWeight:'bold',
+	}
+}
+
+'.forgot':{
+	//width:"130dp",
+	height:"20dp",
+	 top:'1dp',
+	 font:{
+	 	fontSize:'15dp',
+	 	fontWeight:'bold',
+	 },
+	 color:'#fff',
+	// backgroundColor:'red',
+}

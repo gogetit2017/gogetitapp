@@ -1,0 +1,23 @@
+
+".container" : {
+  
+}
+".LabelText":{
+	font:{
+		fontSize:'14dp',
+	},
+	left:'20dp',
+	
+}
+
+'.Btn':{
+	font:{
+		fontWeight:"bold",
+	},
+	width:"90%", color:"#fff", 
+	backgroundColor:"#3BB9FF",
+	 height:"42dp", 
+	 borderRadius:"10dp",
+	left:'20dp',
+}
+

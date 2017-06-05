@@ -1,0 +1,18 @@
+
+".container" : {
+  
+}
+'.tabTitle':{
+	font:{
+		fontSize:'18dp',
+		fontWeight:'bold',
+	},
+	bottom:'10dp',
+	title:'Orders',
+	backgroundColor:'red',
+}
+'.TabStyle':{
+	titleAttributes:{color:'red',
+	font:{fontSize:'14dp'},
+	}
+}

@@ -1,0 +1,90 @@
+
+".container" : {
+  
+}
+
+".textLabel":{
+	font:{
+		fontSize:"16dp",
+	},
+	color:'#000',
+	height:'20dp',
+	width:'150dp',
+	//backgroundColor:'red',
+	left:'10dp',
+}
+
+".detailsLabel":{
+	font:{
+		fontSize:"16dp",
+	},
+	color:'#000',
+	height:'34dp',
+	width:'150dp',
+	//backgroundColor:'red',
+	right:'5dp',
+	//backgroundColor:'pink',
+	textAlign:"left",
+	borderColor:'gray'
+}
+
+
+'.Btn':{
+	font:{
+		fontWeight:"bold",
+	},
+	width:"90%", color:"#fff", 
+	backgroundColor:"#3BB9FF",
+	 height:"42dp", 
+	 borderRadius:"10dp",
+	left:'20dp',
+}
+
+'.firsttext':{
+	
+	font:{
+		fontSize:"16dp",
+	},
+	color:'#000',
+	height:'40dp',
+	width:'90%',
+	//backgroundColor:'red',
+	//left:'10dp',
+	
+}
+
+'.Btn':{
+	font:{
+		fontWeight:"bold",
+	},
+	width:"100dp", height:"30dp" ,backgroundColor:"#3BB9FF", color:"#fff", borderColor:"#fff"
+}
+
+
+
+".Photobutton":
+{
+	font:{
+		fontSize:'19dp',
+		//fontWeight:'bold',
+		
+	},
+	backgroundColor:"#3BB9FF",
+	color:"#fff",
+	width:'100%'
+	
+	
+}
+'.CancelBtn':
+{
+font:{
+		fontSize:'19dp',
+		//fontWeight:'bold',
+		
+	},
+	backgroundColor:"#3BB9FF",
+	color:"#fff",
+	width:'100%'
+	
+	
+}

@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container" layout="vertical" id="win" backgroundColor="#000" navBarHidden="true">
+		<Label class="textLabel">Thank You</Label>
+		<Label class="smallLabelText">Receipt Has Been Sent To </Label>
+		<Label class="smallLabelText">Your Email On File </Label>
+		<Button width="250dp" height="40dp" id="Rtnhome" backgroundColor="#3BB9FF" color="#fff" top="70dp" borderRadius="10dp"> Return Home</Button>
+		
+	</Window>
+</Alloy>

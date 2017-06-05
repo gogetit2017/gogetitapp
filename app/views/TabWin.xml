@@ -1,0 +1,16 @@
+<Alloy>
+		<TabGroup   id="TabGroupID" tabsBackgroundImage="/images/FooterBG.png" >
+            <Require src="Delivery"  ></Require>
+            <Require src="pendingWin"/>
+            <Require src="SupportWin"/>
+            <Tab id="Logout"   title="Log out" icon='/images/log_out.png'>
+	<Window id="win" layout="vertical" backgroundColor="#fff" title="Delivery Request List">
+		<View layout="horizontal" top="20dp" height="31dp" width="100%">
+			<Label width="150dp" left="20dp" color="#000">Online/Offline</Label>
+			<Switch right="10dp" width="100dp" id="SwitchField"></Switch>
+		</View>
+	</Window>
+</Tab>
+    	</TabGroup>
+</Alloy>
+<!--tabsBackgroundImage="/images/FooterBG.png"-->

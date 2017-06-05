@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=true
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=gogetit
+iosLaunchConfigurationAttributes/ATTR_UPLOAD_DEBUG_SYMBOLS=false
+iosLaunchConfigurationAttributes/appid=com.GoGet.App
+iosLaunchConfigurationAttributes/certificate=GOGETIT, LLC (D2624A9N68)
+iosLaunchConfigurationAttributes/distribute_path=/Users/user901558/Desktop
+iosLaunchConfigurationAttributes/keychain=
+iosLaunchConfigurationAttributes/output_format=ipa
+iosLaunchConfigurationAttributes/sdk_version=9.2
+iosLaunchConfigurationAttributes/uuid=32f3f320-0e35-4553-8e65-d7fa0ce1977b

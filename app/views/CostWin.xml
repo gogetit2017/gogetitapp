@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="win" layout="vertical" backgroundColor="#fff" navBarHidden="true" >
+		<Label text="Enter In Cost Of Total Items" left="20dp" width="90%" top="50dp"></Label>
+		<View  height="42dp" width="90%" borderColor="gray" top="15dp" backgroundColor="#fff">
+			<TextField id="textCost" hintText="$0.00" height="42dp" width="89%" left="5dp" top="0dp" keyboardType="Ti.UI.KEYBOARD_DECIMAL_PAD"></TextField>
+		</View>
+		
+		<Button id="submit" height="40dp" width="200dp" top="50dp" borderRadius="15dp" backgroundColor="#3BB9FF" color="#fff">Submit</Button>
+	</Window>
+</Alloy>

@@ -1,0 +1,21 @@
+
+".container" : {
+  
+}
+".textLabel":{
+	font:{
+		fontSize:"18dp",
+		fontWeight:'bold',
+	},
+	color:"#fff",
+	top:'90dp',
+}
+
+".smallLabelText":{
+	font:{
+		fontSize:"16dp",
+		fontWeight:'bold',
+	},
+	color:"#fff",
+	top:'10dp',
+}

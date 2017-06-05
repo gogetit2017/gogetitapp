@@ -1,0 +1,109 @@
+
+".container" : {
+  
+}
+".PersentBtn":{
+	   height:"40dp", width:"50dp", color:"#fff",
+	 
+	 font:{
+	 	fontWeight:'bold'
+	 	},
+}
+
+'.tipBtn':{
+	backgroundColor:"#3BB9FF",  height:"30dp", width:"140dp", color:"#fff",
+	font:{
+	 	fontWeight:'bold'
+	 	},
+	 	borderRadius:"10dp",
+}
+'.tiptext':{
+	font:{
+		fontSize:'14dp',
+	},
+	textAlign:'left',
+}
+
+".pay-now":{
+	font:{
+		fontSize:'20dp',
+		fontWeight:'bold'
+	},
+}
+
+
+".textLabelbold":{
+	font:{
+		fontSize:"20dp",
+		fontWeight:'bold',
+	},
+	color:'#000',
+	height:'20dp',
+	width:'130dp',
+	//backgroundColor:'red',
+	left:'10dp',
+}
+
+".detailsLabelbold":{
+	font:{
+		fontSize:"25dp",
+		fontWeight:'bold',
+	},
+	color:'#000',
+	textAlign:'center'
+
+}
+"roundedTxt":{
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".textLabel":{
+	font:{
+		fontSize:"18dp",
+	},
+	color:'#000',
+	height:'20dp',
+	width:'130dp',
+	//backgroundColor:'red',
+	left:'10dp',
+}
+
+".detailsLabel":{
+	font:{
+		fontSize:"18dp",
+	},
+	color:'#000',
+	height:'20dp',
+	width:'100dp',
+	left:'25dp',
+
+	textAlign:"left",
+
+}
+
+".OrdText":{
+	font:{
+		fontSize:"20dp",
+		fontWeight:'bold',
+	},
+	textAlign:'center'
+	
+}
+
+".GoGetText":{
+	font:{
+		fontSize:"20dp",
+		fontWeight:'bold',
+	},
+	//width:'90%',
+	textAlign:'center'
+	
+}
+
+'.costText':{
+	font:{
+		fontSize:'14dp',
+	},
+	width:"90%", height:"30dp", color:"#000", top:"0dp", left:"5dp"
+}
+

@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="win"  backgroundColor="#000">
+		<View layout="vertical">
+		<ActivityIndicator id='actIndicator' height="30dp" width="30dp" message="Loading..."  top="23dp" color="#fff"></ActivityIndicator>
+		<ImageView id="logo" height="54dp" width="200dp" top="20dp" backgroundImage="/images/Logo.png"></ImageView>
+		<View class="TextClass" top="50dp" backgroundColor="#fff"> 
+		<TextField  hintText=" Username" width="100%"  top="3dp" id="textname"  color="#000" left="5dp" height="35dp" ></TextField>
+		</View>
+		<View class="TextClass"   top="10dp" backgroundColor="#fff">
+		<TextField hintText=" Password" width='90%'  id="textPass"  passwordMask="true" left="5dp" color="#000" height="35dp" top="3dp"></TextField>
+		</View>
+		<Button id="submitBtn" class="signUp" onClick="Login">Sign In</Button>
+		<View height="30dp" width="100%" top='30dp' id='forgotBtn'  >
+			<Button   class='forgot' width="90%" textAlign="center">Forgot Password</Button>
+			<!--<View class="lineView" width="80%" left="39dp" backgroundColor="#fff" height="1dp" top="20dp"></View>-->
+			
+			
+		</View>
+	</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,15 @@
+<Alloy>
+	<Tab id="TabDevilery"   title="Orders" icon='/images/KS_nav_ui.png'>
+ <Window id="win" layout="vertical" backgroundColor="#fff" title="Delivery Request List">
+	
+	<View layout="horizontal" top="20dp" height="31dp" width="100%">
+		<Label width="150dp" left="20dp" color="#000">Online/Offline</Label>
+		<Switch right="10dp" width="100dp" id="SwitchField"></Switch>
+		 </View>
+		 
+		 <TableView id="dliveryList" top="10dp" backgroundColor="#f1f5f7" separatorColor="#f1f5f7"></TableView>
+		 
+	
+</Window>
+</Tab>
+</Alloy>

@@ -1,0 +1,58 @@
+<Alloy>
+	<Tab id="Win" title='Support' icon='/images/Profilefooter.png'>
+<Window id="win"  backgroundColor="#fff">
+	<View layout="horizontal" height="40dp" top="10dp" width="100%">
+	<Button id="profileBtn" class="Btn" left="15%">Profile</Button>
+	<Button id="driverBtn" class="Btn" backgroundColor="#3a9fe5" width="135dp">Driver Support</Button>
+	</View>
+	
+	
+	
+	<ScrollView layout="vertical" top="40dp" id="profileView">
+		<ActivityIndicator id='actIndicator' height="30dp" width="30dp" message="Loading..."  top="0dp" color="#000"></ActivityIndicator>
+		<ImageView id="profileImage" height="100dp" width="100dp"></ImageView>
+		
+		
+				<Label  class="firsttext" id="firstName" textAlign="center">First Name and Last Name</Label>
+				<!--<Label  class="detailsLabel" id="LastName">Last Name</Label>-->
+		
+			<Label  class="textLabel">Change Password </Label>
+			<View layout="horizontal" height="40dp" top="5dp">
+				<Label  class="textLabel">Current Password :</Label>
+				<TextField  class="detailsLabel" id="currentPass" passwordMask="true"></TextField>
+			</View>
+			<View layout="horizontal" height="40dp" top="5dp">
+				<Label  class="textLabel">New Password :</Label>
+				<TextField  class="detailsLabel" id="newPass" passwordMask="true"></TextField>
+			</View>
+			<View layout="horizontal" height="40dp" top="5dp">
+				<Label  class="textLabel">Verify Password :</Label>
+				<TextField  class="detailsLabel" id="veryfyPass" passwordMask="true"></TextField>
+			</View>
+			<Button id="submit" height="40dp" width="200dp" top="30dp" borderRadius="15dp" backgroundColor="#3BB9FF" color="#fff">Submit</Button>
+	</ScrollView>
+	
+
+<View id="ViewSupport" top="70dp" visible="false" layout="vertical">
+		<Label height="40dp"> Need Assistance ?</Label>
+		<Label height="40dp" top="20dp"> Call or text Go Get It Support</Label>
+		<Label height="20dp" top="20dp" width="90%" textAlign="center" color="#000" id="callNo">561-808-9840</Label>
+		<View width="36%" height="1dp" backgroundColor="#000" top="0dp"></View>
+		<Button id="callBtn" height="40dp" width="200dp" top="50dp" borderRadius="15dp" backgroundColor="#3BB9FF" color="#fff">Call</Button>
+		
+	</View>
+	
+	
+	<View id="selectOption" backgroundColor="#3BB9FF" zIndex="140" visible='false' top="300dp" width="100%" borderRadius="5dp" height="250dp" >
+			   <Button id="TakePhoto" height="45dp" top="2dp" class="Photobutton">Take Photo</Button>
+			
+			<ImageView backgroundColor="gray" top="45dp" height="1dp" width="100%"></ImageView>
+			<Button id="PhotoGallery" height="38dp" top="47dp" class="Photobutton" >Choose Existing</Button>
+			<ImageView backgroundColor="gray" top="89dp" height="1dp" width="100%"></ImageView>
+			<Button id="cancel" height="45dp" top="92dp"  class="CancelBtn">Cancel</Button>
+	</View>	 
+	
+</Window>
+</Tab>
+</Alloy>
+

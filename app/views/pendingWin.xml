@@ -1,0 +1,48 @@
+<Alloy>
+	<Tab id="TabPending" title='Pending' icon='/images/Setting@2x.png'>
+		<Window class="container" layout="vertical" id='win' backgroundColor="#ffff" title="Pending Order Details">
+		
+		<ScrollView layout="vertical" width="100%">
+		<Label id="NoData"  class="LabelHeading" top="10dp" visible="false"></Label>
+		<View layout="vertical" height="Ti.UI.SIZE" backgroundColor="#f1f5f7" id="pendingView" width="100%">
+		
+		
+		<Label  top="30dp" class="LabelText" text="- Desired Time of Arrival"></Label>
+		<Label id="deliverytime"  class="ValueText" top="10dp"></Label>
+		
+		<Label  top="30dp" class="LabelText" text="- Customer Name"></Label>
+		<Label id="NameCustomer"  class="ValueText" top="10dp"></Label>
+		
+		<!--<Label  top="30dp" class="LabelText" text="- Delivery Type"></Label>
+		<Label id="deliveryType"  class="ValueText" top="10dp"></Label>-->
+		
+		<Label  top="30dp" class="LabelText" text="- Pick Up Address"></Label>
+		<Label id="PickUpName"  class="ValueText" top="10dp"></Label>
+	    <Label id="location"  class="ValueText" top="10dp" color="#3BB9FF"></Label>
+		
+		<Label  top="30dp" class="LabelText" text="- Delivery Details"></Label>
+		<Label id="deliveryDetails"  class="ValueText" top="10dp" ></Label>
+		
+			<Label  top="30dp" class="LabelText" text="- Delivery Address"></Label>
+		<Label id="DeliveryName"  class="ValueText" top="10dp"></Label>
+		<Label id="deliveryAddress"  class="ValueText" top="10dp" color="#3BB9FF"></Label>
+		
+		<Label  top="30dp" class="LabelText" text="- Phone No"></Label>
+		<Label id="PhoneNo"  class="PhoneText" top="10dp" color="#3BB9FF"></Label>
+		
+		</View>
+		<View height="100dp" top="15dp" layout="vertical">
+			
+			<Button  id="OrderBtn" class="Btn" top="0dp">Order Completed</Button> 
+			<Button  id="OrderComBtn"  class="Btn" top="15dp">Cancel Pickup</Button>
+			
+			
+			</View>
+	  <Button  id="claimOrder" class="Btn" top="25dp" visible="false">Claim an Order</Button> 
+	
+	
+	</ScrollView>
+	
+	</Window>
+</Tab>
+</Alloy>

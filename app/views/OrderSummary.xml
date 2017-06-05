@@ -1,0 +1,55 @@
+<Alloy>
+	<Window class="container" id="win" title="Order Summary" backgroundColor="#fff"  layout="vertical" >
+		<ScrollView layout="vertical" backgroundColor="#f1f5f7" width="100%">
+		
+		<View layout="vertical" backgroundColor="#f1f5f7" width="90%" top="20dp">
+			<View layout="horizontal" height="30dp" top="10dp">
+				<Label  class="textLabel">Time:</Label>
+				<Label  class="detailsLabel" id="TimeText"></Label>
+			</View>
+			<View layout="horizontal" height="30dp" top="5dp">
+				<Label  class="textLabel">Distance:</Label>
+				<Label  class="detailsLabel" id="distanceText"></Label>
+			</View>
+			<View layout="horizontal" height="30dp" top="5dp">
+				<Label  class="textLabel">Cost of Items:</Label>
+				<Label  class="detailsLabel" id="CostText"></Label>
+			</View>
+			<View layout="horizontal" height="30dp" top="30dp">
+				<Label  class="textLabel">Time & Miles:</Label>
+				<Label  class="detailsLabel" id="TimeMileText"></Label>
+			</View>
+			<View layout="horizontal" height="30dp" top="5dp">
+				<Label  class="textLabel">Coupon Code:</Label>
+				<Label  class="detailsLabel" id="CouponCodeLabel"></Label>
+			</View>
+			<View layout="horizontal" height="30dp" top="5dp">
+				<Label  class="textLabel">Coupon Value:</Label>
+				<Label  class="detailsLabel" id="CouponValueLabel"></Label>
+			</View>
+			<View layout="horizontal" height="30dp" top="5dp">
+				<Label  class="textLabel">Processing Fee:</Label>
+				<Label  class="detailsLabel" id="PrecentText"></Label>
+			</View>
+			<View layout="horizontal" height="30dp" top="5dp">
+				<Label  class="textLabel">Delivery Fee:</Label>
+				<Label  class="detailsLabel" id="TipText"></Label>
+			</View>
+			<View layout="horizontal" height="30dp" top="30dp"  width="100%">
+				<Label  class="textLabel">Sub Total:</Label>
+				<Label  class="detailsLabel" id="TotalAmt"></Label>
+			</View>
+			<View layout="horizontal" height="30dp" top="5dp" width="100%">
+					<Label  class="textLabel">Customer:</Label>
+					<Label  class="detailsLabel" id="customerName"></Label>
+			</View>
+			<View layout="horizontal" height="30dp" top="5dp"  width="100%">
+					<Label  class="textLabel">Card on File:</Label>
+					<Label  class="detailsLabel" id="ccNo"></Label>
+			</View>
+		</View>
+		
+	     <Button  id="PayBtn" class="Btn">Checkout</Button>
+	     </ScrollView>
+	     </Window>
+</Alloy>

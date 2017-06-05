@@ -1,0 +1,41 @@
+
+".container" : {
+  
+}
+
+".textLabel":{
+	font:{
+		fontSize:"16dp",
+	},
+	color:'#000',
+	height:'20dp',
+	width:'150dp',
+	
+	left:'10dp',
+}
+
+".detailsLabel":{
+	font:{
+		fontSize:"16dp",
+	},
+	color:'#000',
+	height:'20dp',
+	width:'120dp',
+	//backgroundColor:'red',
+	right:'0dp',
+	//backgroundColor:'pink',
+	textAlign:"left"
+}
+
+
+'.Btn':{
+	font:{
+		fontWeight:"bold",
+	},
+	width:"90%", color:"#fff", 
+	backgroundColor:"#3BB9FF",
+	 height:"42dp", 
+	 borderRadius:"10dp",
+	left:'20dp',
+	top:'10dp',
+}

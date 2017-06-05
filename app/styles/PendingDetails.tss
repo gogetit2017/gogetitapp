@@ -1,0 +1,50 @@
+
+".container" : {
+  
+}
+".LabelText":{
+	font:{
+		fontSize:'14dp',
+	},
+	left:'20dp',
+	
+}
+
+'.Btn':{
+	font:{
+		fontWeight:"bold",
+	},
+	width:"90%", color:"#fff", 
+	backgroundColor:"#3BB9FF",
+	 height:"42dp", 
+	 borderRadius:"10dp",
+	left:'20dp',
+}
+
+".LabelHeading":{
+	font:{
+		fontSize:'16dp',
+	},
+	top:'5dp',
+	//left:'90dp',
+	color:'gray',
+	width:'90%',
+	textAlign:'center',
+	
+}
+".PhoneText":{
+	font:{
+		fontSize:'14dp',
+	},
+	left:'20dp',
+	height:'25dp',
+	
+}
+
+".ValueText":{
+	font:{
+		fontSize:'14dp',
+	},
+	left:'29dp',
+	
+}

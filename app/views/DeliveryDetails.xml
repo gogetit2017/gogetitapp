@@ -1,0 +1,32 @@
+<Alloy>
+	<Window class="container" layout="vertical" id='win' backgroundColor="#ffff" title="Delivery Details">
+		
+		<ScrollView layout="vertical" width="100%">
+		<View layout="vertical" height="Ti.UI.SIZE" backgroundColor="#f1f5f7" width="90%">
+		<Label  top="30dp" class="LabelText" text="- Desired Time of Arrival"></Label>
+		<Label id="ArrivalTime"  class="ValueText" top="10dp"></Label>
+				
+		<!--<Label  top="30dp" class="LabelText" text="- Delivery Type"></Label>
+		<Label id="deliveryType"  class="ValueText" top="10dp"></Label>-->
+		
+		<Label  top="30dp" class="LabelText" text="- Pick Up Address"></Label>
+		<Label id="PickUpName"  class="ValueText" top="10dp"></Label>
+		<Label id="location"  class="ValueText" top="10dp"></Label>
+		<Label  top="30dp" class="LabelText" text="- Pick Up Date and Time"></Label>
+		<Label id="PickupDate"  class="ValueText" top="10dp"></Label>
+		<Label id="PickupTime"  class="ValueText" top="10dp"></Label>
+		
+		<Label  top="30dp" class="LabelText" text="- Delivery Details"></Label>
+		<Label id="deliveryDetails"  class="ValueText" top="10dp"></Label>
+		
+		<Label  top="30dp" class="LabelText" text="- Delivery Address"></Label>
+		<Label id="DeliveryName"  class="ValueText" top="10dp"></Label>
+		<Label id="deliveryAddress"  class="ValueText" top="10dp"></Label>
+		<View height="10dp"></View>
+		</View>
+		<Button left="20dp" id="AcceptBtn" class="Btn" top="20dp">ACCEPT</Button> 
+		<Button right="20dp" id="DeclinrBtn" class="Btn" visible="false" top="10dp">DECLINE</Button>
+		</ScrollView>
+		<View height="10dp"></View>
+	</Window>
+</Alloy>

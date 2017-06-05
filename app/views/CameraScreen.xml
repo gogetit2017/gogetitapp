@@ -1,0 +1,10 @@
+<Alloy>
+	<Window  id="win" layout="vertical" backgroundColor="#fff" >
+		
+		<Label width="90%" color="#000" top="50dp" textAlign="center"> Take a picture of your receipt</Label>
+		<ActivityIndicator id='actIndicator' height="30dp" width="30dp" message="Loading..."  top="23dp" ></ActivityIndicator>
+		<Button id="Camera" height="37dp" width="50dp" backgroundImage="/images/CameraIcon.png" top="100dp"></Button>
+		<Button id="NoReceiptBtn" height="40dp" width="200dp" top="50dp" borderRadius="15dp" backgroundColor="#3BB9FF" color="#fff">No Receipts</Button>
+		
+	</Window>
+</Alloy>

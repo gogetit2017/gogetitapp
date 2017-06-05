@@ -1,0 +1,40 @@
+<Alloy>
+	<Window class="container" id='win' backgroundColor="#fff" layout="vertical" title="Checkout" >
+		<ScrollView layout="vertical" backgroundColor="#f1f5f7" width="100%">
+		<Label height="20dp" width="100%" textAlign="center" top="15dp"  class="GoGetText">REVIEW YOUR ORDER!</Label>
+		<View height="60dp" layout="vertical"  width="90%" top="5dp" id="CalView"> 
+			<View layout="horizontal" height="23dp" top="5dp" >
+				<Label  class="textLabel">Sub Total:</Label>
+				<Label  class="detailsLabel" id="subTotal" ></Label>
+			</View>
+			<View layout="horizontal" height="23dp" top="0dp" width="100%">
+				<Label  class="textLabel">Go Getter's Tip:</Label>
+				<Label  class="detailsLabel" id="TipBtn" ></Label>
+			</View>
+		</View>
+		<View layout="vertical" height="60dp" top="5dp"  id="mainView">
+	         <View layout="horizontal" width="90%" height="50dp" top="0dp" left="5%" right="5%" >
+				<Button class="PersentBtn"  left="6dp"  id="NoTip"  top="10dp" backgroundColor="#3BB9FF" borderRadius="10dp"  >No Tip</Button>
+				<Button  class="PersentBtn" left="6dp" id="pesent15" top="10dp" backgroundColor="#3BB9FF" borderRadius="10dp" >20%</Button>
+				<Button  class="PersentBtn" left="6dp" id="pesent20" top="10dp" backgroundColor="#3BB9FF" borderRadius="10dp" >25%</Button>
+				<Button   class="PersentBtn" left="6dp" id="pesent25" top="10dp" backgroundColor="#3BB9FF" borderRadius="10dp" >30%</Button>
+				<Button class="PersentBtn" left="6dp"  id="otheBtn" top="10dp" backgroundColor="#3BB9FF" borderRadius="10dp" >Other</Button>
+			</View>
+		</View>
+		<View left="25%" width="50%" height="30dp" borderRadius="15dp" borderColor="gray" backgroundColor="#fff"  top="3dp"  id="TipsTextView" visible="false">
+		<TextField   hintText="Enter Amount" left="10dp"  class="costText" backgroundColor="#fff"   id="TipsText" keyboardType="Ti.UI.KEYBOARD_DECIMAL_PAD" returnKeyType="Titanium.UI.RETURNKEY_DONE"></TextField>
+         </View>
+        			
+        <View layout="horizontal" height="65dp" top="10dp" width="100%">
+        		<Label top="2dp" height="30dp" width="100%" textAlign="center" class="OrdText">ORDER TOTAL</Label>
+				<Label  class="detailsLabelbold" height="30dp" width="100%" textAlign="center" id="orderTotal" ></Label>
+		</View>  
+		<Label top="2dp" height="20dp" width="90%" textAlign="center">RECEIVED BY: </Label>		
+		<View  height="42dp" width="90%"  top="15dp"  backgroundColor="#fff" borderRadius="15dp" borderColor="gray" >
+			<TextField  hintText="ENTER NAME" left="10dp" backgroundColor="#fff" top="3dp" id="customer_name"  returnKeyType="Titanium.UI.RETURNKEY_DONE" color="#000"  height="35dp" ></TextField>
+		</View>
+		<Button id="nextBtn" height="40dp" width="90%" backgroundColor="#3BB9FF" color="#fff" top="3%" borderRadius="10dp" class="pay-now" >PAY NOW</Button>
+		<View height="20dp"></View>
+		</ScrollView>
+	</Window>
+</Alloy>
